@@ -1,0 +1,16 @@
+int xa1, ya1, xb1, yb1;
+class aristas{
+    
+
+  aristas(int xa, int ya, int xb, int yb){
+    xa1=xa;
+    ya1=ya;
+    xb1=xb;
+    yb1=yb;
+
+} 
+
+void draw(){
+line(xa1,ya1,xb1,yb1);
+}
+}
